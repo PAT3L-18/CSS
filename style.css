@@ -1,2 +1,90 @@
-p{color:RED;}
-console
+p{
+    border-block: 5px solid;
+    border-inline: 5px solid;
+    border-inline-color: red;
+    border-inline-start-style: solid ;
+    border-inline-start-color: violet;
+    border-inline-start-width: 5px;
+
+    border-inline-end-style: dotted;
+    border-inline-end-color: violet;
+    border-inline-end-width: 5pxpx;
+}
+.center {
+        margin: auto;
+        width: 50%;
+        border: 10px solid red;
+        padding: 10px;
+    }
+    body{background-color: palevioletred}
+    p {
+        text-align: center;
+    }
+    div {
+        width: 70px;
+        height: 300px;
+        border: 1px solid #c3c3c3;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    body {
+        background-image: url("img03.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border: 2px dashed greenyellow;
+    }
+   body{color: white;}
+   h1 {
+        border-style: solid;
+        border-top-style: dotted;
+        border-top-color: aquamarine;
+        border-top-width: 5px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    h2 {
+        border-block: 4px dotted;
+    }
+    h3 {
+        border-block-style: solid;
+        border-block-color: yellow;
+    }
+    h4 {
+        border-block-start: 8px solid;
+        border-block-end: 8px solid;
+    }
+    h5 {
+        border-block-start-style: solid;
+        border-block-start-color: blueviolet;
+        border-block-start-width: 4px;
+
+        border-block-end-style: solid;
+        border-block-end-color: blueviolet;
+        border-block-end-width: 4px;
+    }
+    h6 {
+        border-style: solid;
+        border-bottom-style: dotted;
+        border-bottom-color: aquamarine;
+        border-bottom-width: 5px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    table {
+        border-style:  solid;
+        border-color: white;
+        border-width: 1px;
+        border-collapse: separate;
+        border-spacing: 15px;
+}
+    mark {
+       border-left-color: blue;
+       border-left-width: 5px;
+       border-left-style: groove;
+
+       border-right-color: blue;
+       border-right-width: 5px;
+       border-right-style: groove;
+    }
